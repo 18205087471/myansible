@@ -42,9 +42,9 @@ def adhoc(server_list, hosts, module, args):
             tqm.cleanup()
         shutil.rmtree(C.DEFAULT_LOCAL_TMP, True)
 
-if __name__ == '__main__':
-    server_list = ['myansible/hosts',]
-    hosts = 'localhost'
-    module = 'shell'
-    args = 'ifconfig'
-    adhoc(server_list, hosts, module, args)
+# if __name__ == '__main__':
+#     server_list = ['myansible/hosts',]
+#     hosts = 'localhost'
+#     module = 'shell'
+#     args = 'ifconfig'
+#     adhoc(server_list, hosts, module, args)
